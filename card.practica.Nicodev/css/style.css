@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background: #01DF01;
+    width: 300px;
+    height: 450px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: auto 20px;
+    margin-top: 50px;
+}
+
+.card{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    right: -15%;
+    
+}
+
+    .titulo{
+        padding-bottom: inherit;
+        margin-top: 15px;
+    }
+
+    .texto{
+        font-style: italic;
+    }
